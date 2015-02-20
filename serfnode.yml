@@ -1,0 +1,6 @@
+---
+
+children:
+  - redis:
+      image: redis
+      command: redis-server --appendonly yes
